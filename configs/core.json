@@ -1,0 +1,98 @@
+{
+  "status": "draft_not_frozen_not_executed",
+  "prepared_on": "2026-10-23",
+  "case_seed": 20261023,
+  "bootstrap_seed": 20261024,
+  "families": [
+    "metric_reporting",
+    "evaluation_selection",
+    "evidence_sufficiency"
+  ],
+  "base_cases_per_family": 60,
+  "development_per_family": 10,
+  "test_per_family": 50,
+  "reports_per_case": [
+    "natural",
+    "canonical_correct",
+    "controlled_incorrect"
+  ],
+  "generator": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "enable_thinking": false,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_new_tokens": 384,
+    "seed": 20261025
+  },
+  "auditors": [
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    }
+  ],
+  "optional_auditor": {
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "inference": {
+    "dtype": "bfloat16",
+    "initial_batch_size": 1,
+    "max_input_tokens": 4096,
+    "enable_thinking": false,
+    "scoring": "two_completion_conditional_log_likelihood_with_common_termination"
+  },
+  "conditions": [
+    "report_only",
+    "original_order_evidence",
+    "claim_organized_evidence"
+  ],
+  "budgets": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "primary": {
+    "arm": "controlled",
+    "auditor": "Qwen/Qwen3-4B",
+    "policy": "risk",
+    "budget": 0.2,
+    "outcome": "error_recall_claim_organized_minus_original_order"
+  },
+  "bootstrap_replicates": 2000,
+  "random_rankings": 1000,
+  "min_natural_errors_for_comparison": 20,
+  "min_natural_correct_for_comparison": 20,
+  "target_gpu": "1 x A100 40GB",
+  "maximum_spend": null,
+  "expected_maximum": {
+    "generator_completions": 180,
+    "report_records": 540,
+    "core_audit_scores": 3240,
+    "optional_extra_audit_scores": 1620
+  },
+  "protocol_version": "0.2",
+  "test_strata_per_family": {
+    "new_instance": 30,
+    "held_out_variant": 20
+  },
+  "bootstrap_strata": [
+    "family",
+    "test_stratum"
+  ],
+  "prevalence_sensitivity": {
+    "nominal_error_rates": [
+      0.1,
+      0.25
+    ],
+    "queue_draws": 1000,
+    "seed": 20261026,
+    "variants_per_case_per_queue": 1
+  },
+  "baseline": "executable_checker_without_gold_file_access"
+}
