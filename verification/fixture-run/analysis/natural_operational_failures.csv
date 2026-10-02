@@ -1,0 +1,4 @@
+family,n,incorrect,unassessable,operational_failures,operational_failure_rate
+metric_reporting,50,13,4,17,0.34
+evaluation_selection,50,14,1,15,0.3
+evidence_sufficiency,50,12,0,12,0.24

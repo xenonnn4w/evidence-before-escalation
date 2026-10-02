@@ -1,0 +1,27 @@
+{
+  "scenarios": [
+    {
+      "bootstrap_per_trial": 200,
+      "hypothetical_score_shift": 0,
+      "median_95_interval_width": 0.06,
+      "median_observed_effect": -0.006666666666666654,
+      "trials": 30
+    },
+    {
+      "bootstrap_per_trial": 200,
+      "hypothetical_score_shift": 0.25,
+      "median_95_interval_width": 0.06000000000000001,
+      "median_observed_effect": 0.026666666666666672,
+      "trials": 30
+    },
+    {
+      "bootstrap_per_trial": 200,
+      "hypothetical_score_shift": 0.5,
+      "median_95_interval_width": 0.0601666666666667,
+      "median_observed_effect": 0.053333333333333344,
+      "trials": 30
+    }
+  ],
+  "seed": 20261027,
+  "warning": "HYPOTHETICAL SCORES ONLY. Not model results or a power guarantee. Arbitrary score correlation/noise assumptions."
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "cases": 180,
+    "reordered_cases": 180,
+    "unchanged_cases": 0,
+    "valid": true
+  },
+  "free_disk_bytes": 5419712512,
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 6141 MiB, 580.178.04",
+  "packages": {
+    "accelerate": "1.6.0",
+    "matplotlib": "3.10.1",
+    "numpy": "2.2.5",
+    "torch": "2.7.1+cpu",
+    "transformers": "4.51.3"
+  },
+  "python": "3.11.15",
+  "tokenization": [
+    {
+      "label_tokens": {
+        "ERROR": [
+          3682,
+          151645
+        ],
+        "OK": [
+          3925,
+          151645
+        ]
+      },
+      "max_input_tokens": 712,
+      "model": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    },
+    {
+      "label_tokens": {
+        "ERROR": [
+          3682,
+          151645
+        ],
+        "OK": [
+          3925,
+          151645
+        ]
+      },
+      "max_input_tokens": 712,
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    }
+  ]
+}

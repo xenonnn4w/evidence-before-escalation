@@ -1,0 +1,20 @@
+{
+  "archive_extraction": "passed",
+  "run_validation": "passed",
+  "independent_directory_analysis": "passed",
+  "byte_identical_csv_tables": [
+    "checker_coverage.csv",
+    "fig01_review_budget.csv",
+    "fig02_organization_effect.csv",
+    "fig03_variant_transfer.csv",
+    "fig04_residual_errors.csv",
+    "fig05_natural_controlled.csv",
+    "fig06_prevalence_sensitivity.csv",
+    "fig07_compute_cost.csv",
+    "metrics.csv",
+    "natural_operational_failures.csv",
+    "paired_effects.csv"
+  ],
+  "count": 11,
+  "note": "Recreated with the pinned NumPy/Matplotlib versions in the CPU inference-check environment; no GPU/model results."
+}

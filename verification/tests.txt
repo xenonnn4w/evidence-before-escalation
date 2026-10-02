@@ -1,0 +1,26 @@
+test_teacher_forcing_matches_full_logits_reference (test_likelihood.LikelihoodTests.test_teacher_forcing_matches_full_logits_reference) ... Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+ok
+test_auroc_ties_and_reversal (test_pipeline.PipelineTests.test_auroc_ties_and_reversal) ... ok
+test_bootstrap_keeps_pairs (test_pipeline.PipelineTests.test_bootstrap_keeps_pairs) ... ok
+test_checker_ignores_gold (test_pipeline.PipelineTests.test_checker_ignores_gold) ... ok
+test_dataset_and_controls (test_pipeline.PipelineTests.test_dataset_and_controls) ... ok
+test_fixture_cannot_authorize_real_freeze (test_pipeline.PipelineTests.test_fixture_cannot_authorize_real_freeze) ... ok
+test_hand_computed_metrics (test_pipeline.PipelineTests.test_hand_computed_metrics) ... ok
+test_missing_run_and_subgroup_threshold (test_pipeline.PipelineTests.test_missing_run_and_subgroup_threshold) ... ok
+test_normalization (test_pipeline.PipelineTests.test_normalization) ... ok
+test_optional_extension_reuses_existing_records (test_pipeline.PipelineTests.test_optional_extension_reuses_existing_records) ... ok
+test_queue_oracle_ceiling_and_policies (test_pipeline.PipelineTests.test_queue_oracle_ceiling_and_policies) ... ok
+test_real_test_requires_freeze (test_pipeline.PipelineTests.test_real_test_requires_freeze) ... ok
+test_report_about_bad_workflow_can_be_correct (test_pipeline.PipelineTests.test_report_about_bad_workflow_can_be_correct) ... ok
+test_resume_and_missing_scores_detected (test_pipeline.PipelineTests.test_resume_and_missing_scores_detected) ... ok
+test_resume_rejects_changed_config (test_pipeline.PipelineTests.test_resume_rejects_changed_config) ... ok
+test_same_evidence_no_gold_in_public (test_pipeline.PipelineTests.test_same_evidence_no_gold_in_public) ... ok
+test_schema_and_numeric_tolerance (test_pipeline.PipelineTests.test_schema_and_numeric_tolerance) ... ok
+test_strict_json_rejects_duplicate_and_nonfinite (test_pipeline.PipelineTests.test_strict_json_rejects_duplicate_and_nonfinite) ... ok
+test_validator_rejects_tampered_prompt_and_score (test_pipeline.PipelineTests.test_validator_rejects_tampered_prompt_and_score) ... ok
+test_zero_denominator (test_pipeline.PipelineTests.test_zero_denominator) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.441s
+
+OK

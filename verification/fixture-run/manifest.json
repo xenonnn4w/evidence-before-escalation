@@ -1,0 +1,24 @@
+{
+  "created_unix": 1792730513.21202,
+  "fixture_notice": "SYNTHETIC SOFTWARE TEST DATA \u2014 NOT EXPERIMENTAL RESULTS",
+  "hardware": {},
+  "mode": "fixture",
+  "models": [
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    }
+  ],
+  "optional": false,
+  "phase": "test",
+  "python": "3.11.15",
+  "signature": {
+    "code_hash": "42da698bd85d730fc5a1bd77ec3f629febb4c06e3efa8f1872c46e8854297958",
+    "config_hash": "b79778518d34da45e9e247dc987b03fd2b56dcce40a44d98e7ca7ef03855983e",
+    "dataset_hash": "cbdb8c6d02c1acf7f848c902b8f6ab1930fb8f800bc8e7d9f6833be5423109a8"
+  }
+}
