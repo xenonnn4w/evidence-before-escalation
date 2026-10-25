@@ -1,0 +1,13 @@
+model,arm,membership,reports,errors,correct
+Qwen/Qwen3-1.7B,controlled,Both queues,53,26,27
+Qwen/Qwen3-1.7B,controlled,Original only,7,5,2
+Qwen/Qwen3-1.7B,controlled,Organized only,7,2,5
+Qwen/Qwen3-4B,controlled,Both queues,39,33,6
+Qwen/Qwen3-4B,controlled,Original only,21,8,13
+Qwen/Qwen3-4B,controlled,Organized only,21,8,13
+Qwen/Qwen3-1.7B,natural,Both queues,22,19,3
+Qwen/Qwen3-1.7B,natural,Original only,8,4,4
+Qwen/Qwen3-1.7B,natural,Organized only,8,8,0
+Qwen/Qwen3-4B,natural,Both queues,21,21,0
+Qwen/Qwen3-4B,natural,Original only,9,9,0
+Qwen/Qwen3-4B,natural,Organized only,9,7,2

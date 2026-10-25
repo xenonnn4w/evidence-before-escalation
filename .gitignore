@@ -3,7 +3,10 @@ __pycache__/
 *.pyc
 *.egg-info/
 .cache/
-results/
+results/*
+!results/test/
+!results/development/
+!results/smoke/
 outputs/
 *.tar.gz
 

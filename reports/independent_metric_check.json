@@ -1,0 +1,619 @@
+{
+  "method": "Recompute from raw labels/predictions, without batch-count records or checker functions",
+  "cases": 50,
+  "all_match": true,
+  "details": [
+    {
+      "case_id": "0-010",
+      "expected": {
+        "score_A": 0.75,
+        "score_B": 0.7422,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-011",
+      "expected": {
+        "score_A": 0.5455,
+        "score_B": 0.537,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-012",
+      "expected": {
+        "score_A": 0.75,
+        "score_B": 0.7812,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-013",
+      "expected": {
+        "score_A": 0.9242,
+        "score_B": 0.9636,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-014",
+      "expected": {
+        "score_A": 0.7188,
+        "score_B": 0.7188,
+        "winner": "tie"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-015",
+      "expected": {
+        "score_A": 0.75,
+        "score_B": 0.8036,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-016",
+      "expected": {
+        "score_A": 0.7422,
+        "score_B": 0.7344,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-017",
+      "expected": {
+        "score_A": 0.9114,
+        "score_B": 0.9103,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-018",
+      "expected": {
+        "score_A": 0.7891,
+        "score_B": 0.7812,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-019",
+      "expected": {
+        "score_A": 0.8824,
+        "score_B": 0.8929,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-020",
+      "expected": {
+        "score_A": 0.7656,
+        "score_B": 0.8125,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-021",
+      "expected": {
+        "score_A": 0.9375,
+        "score_B": 0.7647,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-022",
+      "expected": {
+        "score_A": 0.75,
+        "score_B": 0.7422,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-023",
+      "expected": {
+        "score_A": 0.9688,
+        "score_B": 0.9368,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A"
+      ]
+    },
+    {
+      "case_id": "0-024",
+      "expected": {
+        "score_A": 0.6094,
+        "score_B": 0.7422,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-025",
+      "expected": {
+        "score_A": 0.3947,
+        "score_B": 0.4,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-026",
+      "expected": {
+        "score_A": 0.7031,
+        "score_B": 0.7031,
+        "winner": "tie"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-027",
+      "expected": {
+        "score_A": 0.5882,
+        "score_B": 0.5714,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-028",
+      "expected": {
+        "score_A": 0.8125,
+        "score_B": 0.7734,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-029",
+      "expected": {
+        "score_A": 0.5,
+        "score_B": 0.7143,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-030",
+      "expected": {
+        "score_A": 0.6771,
+        "score_B": 0.8021,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-031",
+      "expected": {
+        "score_A": 0.7188,
+        "score_B": 0.9375,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-032",
+      "expected": {
+        "score_A": 0.7344,
+        "score_B": 0.7422,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-033",
+      "expected": {
+        "score_A": 0.7083,
+        "score_B": 0.7778,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-034",
+      "expected": {
+        "score_A": 0.8125,
+        "score_B": 0.7292,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-035",
+      "expected": {
+        "score_A": 0.7083,
+        "score_B": 0.6727,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-036",
+      "expected": {
+        "score_A": 0.6979,
+        "score_B": 0.6875,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-037",
+      "expected": {
+        "score_A": 0.6842,
+        "score_B": 0.7368,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-038",
+      "expected": {
+        "score_A": 0.7656,
+        "score_B": 0.6719,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-039",
+      "expected": {
+        "score_A": 0.7727,
+        "score_B": 0.7727,
+        "winner": "tie"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-040",
+      "expected": {
+        "score_A": 0.747,
+        "score_B": 0.7647,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-041",
+      "expected": {
+        "score_A": 0.8118,
+        "score_B": 0.7498,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-042",
+      "expected": {
+        "score_A": 0.7375,
+        "score_B": 0.6167,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-043",
+      "expected": {
+        "score_A": 0.729,
+        "score_B": 0.7046,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-044",
+      "expected": {
+        "score_A": 0.6653,
+        "score_B": 0.7085,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-045",
+      "expected": {
+        "score_A": 0.8333,
+        "score_B": 0.7699,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-046",
+      "expected": {
+        "score_A": 0.7681,
+        "score_B": 0.653,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-047",
+      "expected": {
+        "score_A": 0.6135,
+        "score_B": 0.6952,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-048",
+      "expected": {
+        "score_A": 0.7091,
+        "score_B": 0.792,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-049",
+      "expected": {
+        "score_A": 0.6315,
+        "score_B": 0.6105,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-050",
+      "expected": {
+        "score_A": 0.8031,
+        "score_B": 0.7703,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-051",
+      "expected": {
+        "score_A": 0.6517,
+        "score_B": 0.6008,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-052",
+      "expected": {
+        "score_A": 0.7176,
+        "score_B": 0.6825,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-053",
+      "expected": {
+        "score_A": 0.6815,
+        "score_B": 0.7222,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-054",
+      "expected": {
+        "score_A": 0.7968,
+        "score_B": 0.6875,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-055",
+      "expected": {
+        "score_A": 0.704,
+        "score_B": 0.6946,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-056",
+      "expected": {
+        "score_A": 0.7,
+        "score_B": 0.7331,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-057",
+      "expected": {
+        "score_A": 0.7678,
+        "score_B": 0.7198,
+        "winner": "A"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    },
+    {
+      "case_id": "0-058",
+      "expected": {
+        "score_A": 0.6812,
+        "score_B": 0.7169,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B"
+      ]
+    },
+    {
+      "case_id": "0-059",
+      "expected": {
+        "score_A": 0.6863,
+        "score_B": 0.7188,
+        "winner": "B"
+      },
+      "natural_errors": [
+        "score_A",
+        "score_B",
+        "winner"
+      ]
+    }
+  ]
+}

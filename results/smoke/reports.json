@@ -1,0 +1,170 @@
+[
+  {
+    "arm": "natural",
+    "case_id": "1-000",
+    "checker_seconds": 1.8430000636726618e-05,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-000:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-000",
+    "checker_seconds": 1.669699850026518e-05,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C3"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-000",
+    "checker_seconds": 1.2737000361084938e-05,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-000",
+    "checker_seconds": 1.0659998224582523e-05,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-000:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-000",
+    "checker_seconds": 8.459996024612337e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-000",
+    "checker_seconds": 1.186799636343494e-05,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-000",
+    "checker_seconds": 2.3524000425823033e-05,
+    "errors": [
+      "score_A",
+      "score_B",
+      "winner"
+    ],
+    "family": "metric_reporting",
+    "id": "0-000:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8276,
+      "score_B": 0.8348,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-000",
+    "checker_seconds": 2.1182000637054443e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7812,
+      "score_B": 0.7188,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-000",
+    "checker_seconds": 1.997499930439517e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6312,
+      "score_B": 0.7188,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  }
+]

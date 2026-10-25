@@ -1,0 +1,3 @@
+{"event": "model_load", "model": "Qwen/Qwen3-4B", "seconds": 122.54178787302226}
+{"event": "model_load", "model": "Qwen/Qwen3-1.7B", "seconds": 63.57265251874924}
+{"event": "model_load", "model": "Qwen/Qwen3-4B", "seconds": 2.5697745084762573}

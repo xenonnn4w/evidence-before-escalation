@@ -1,0 +1,1683 @@
+[
+  {
+    "arm": "natural",
+    "case_id": "0-000",
+    "checker_seconds": 2.91579999611713e-05,
+    "errors": [
+      "score_A",
+      "score_B",
+      "winner"
+    ],
+    "family": "metric_reporting",
+    "id": "0-000:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8276,
+      "score_B": 0.8348,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-000",
+    "checker_seconds": 3.148500400129706e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7812,
+      "score_B": 0.7188,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-000",
+    "checker_seconds": 2.2402004105970263e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6312,
+      "score_B": 0.7188,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-001",
+    "checker_seconds": 2.065900480374694e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-001:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6667,
+      "score_B": 0.6667,
+      "winner": "A"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-001",
+    "checker_seconds": 2.060500264633447e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-001:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.3421,
+      "score_B": 0.2973,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-001",
+    "checker_seconds": 1.9943996449001133e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-001:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.4921,
+      "score_B": 0.2973,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-002",
+    "checker_seconds": 1.7924001440405846e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-002:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.9474,
+      "score_B": 0.9388,
+      "winner": "A"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-002",
+    "checker_seconds": 1.763700129231438e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-002:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7604,
+      "score_B": 0.625,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-002",
+    "checker_seconds": 1.7628000932745636e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-002:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6104,
+      "score_B": 0.625,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-003",
+    "checker_seconds": 1.5535995771642774e-05,
+    "errors": [
+      "score_A",
+      "score_B",
+      "winner"
+    ],
+    "family": "metric_reporting",
+    "id": "0-003:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8889,
+      "score_B": 0.9167,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-003",
+    "checker_seconds": 1.544599945191294e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-003:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.9459,
+      "score_B": 0.9048,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-003",
+    "checker_seconds": 1.5451005310751498e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-003:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7959,
+      "score_B": 0.9048,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-004",
+    "checker_seconds": 1.5350000467151403e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-004:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6726,
+      "score_B": 0.7273,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-004",
+    "checker_seconds": 1.5574994904454798e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-004:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6719,
+      "score_B": 0.7031,
+      "winner": "B"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-004",
+    "checker_seconds": 1.4892997569404542e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-004:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6719,
+      "score_B": 0.5531,
+      "winner": "B"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-005",
+    "checker_seconds": 1.91670042113401e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-005:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8,
+      "score_B": 0.8571,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-005",
+    "checker_seconds": 1.955299376277253e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-005:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.908,
+      "score_B": 0.9474,
+      "winner": "B"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-005",
+    "checker_seconds": 1.912700099637732e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-005:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.908,
+      "score_B": 0.7974,
+      "winner": "B"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-006",
+    "checker_seconds": 1.9556006009224802e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-006:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8235,
+      "score_B": 0.9412,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-006",
+    "checker_seconds": 1.9380000594537705e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-006:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.75,
+      "score_B": 0.7891,
+      "winner": "B"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-006",
+    "checker_seconds": 1.9270999473519623e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-006:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.75,
+      "score_B": 0.6391,
+      "winner": "B"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-007",
+    "checker_seconds": 1.996500213863328e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-007:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6667,
+      "score_B": 0.625,
+      "winner": "A"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-007",
+    "checker_seconds": 2.028900053119287e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-007:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.6167,
+      "score_B": 0.5469,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-007",
+    "checker_seconds": 1.978799991775304e-05,
+    "errors": [
+      "score_A"
+    ],
+    "family": "metric_reporting",
+    "id": "0-007:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.4667,
+      "score_B": 0.5469,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-008",
+    "checker_seconds": 1.715799589874223e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-008:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.8261,
+      "score_B": 0.8314,
+      "winner": "B"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-008",
+    "checker_seconds": 1.7432001186534762e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-008:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7708,
+      "score_B": 0.7917,
+      "winner": "B"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-008",
+    "checker_seconds": 1.6960999346338212e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-008:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.7708,
+      "score_B": 0.6417,
+      "winner": "B"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "accuracy"
+  },
+  {
+    "arm": "natural",
+    "case_id": "0-009",
+    "checker_seconds": 1.5157995221670717e-05,
+    "errors": [
+      "score_A",
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-009:natural",
+    "mode": "real",
+    "report": {
+      "score_A": 0.625,
+      "score_B": 0.625,
+      "winner": "A"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-009",
+    "checker_seconds": 1.5277997590601444e-05,
+    "errors": [],
+    "family": "metric_reporting",
+    "id": "0-009:canonical_correct",
+    "mode": "real",
+    "report": {
+      "score_A": 0.5217,
+      "score_B": 0.52,
+      "winner": "A"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "0-009",
+    "checker_seconds": 1.5181998605839908e-05,
+    "errors": [
+      "score_B"
+    ],
+    "family": "metric_reporting",
+    "id": "0-009:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "score_A": 0.5217,
+      "score_B": 0.37,
+      "winner": "A"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "precision_recall"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-000",
+    "checker_seconds": 1.1308999091852456e-05,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-000:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-000",
+    "checker_seconds": 8.726005034986883e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C3"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-000",
+    "checker_seconds": 8.041999535635114e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-001",
+    "checker_seconds": 7.941001967992634e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-001:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C4"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-001",
+    "checker_seconds": 7.713002560194582e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-001:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C0"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-001",
+    "checker_seconds": 7.47199374018237e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-001:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C0"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-002",
+    "checker_seconds": 6.157999450806528e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-002:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-002",
+    "checker_seconds": 5.9730009525083005e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-002:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-002",
+    "checker_seconds": 6.182999641168863e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-002:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C1"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-003",
+    "checker_seconds": 6.1060054576955736e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-003:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C0"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-003",
+    "checker_seconds": 6.402995495591313e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-003:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C1"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-003",
+    "checker_seconds": 6.2489998526871204e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-003:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-004",
+    "checker_seconds": 5.792993761133403e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-004:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-004",
+    "checker_seconds": 5.8539953897707164e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-004:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C0"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-004",
+    "checker_seconds": 5.9869998949579895e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-004:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C0"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-005",
+    "checker_seconds": 6.016001862008125e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-005:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-005",
+    "checker_seconds": 6.369002221617848e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-005:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C1"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-005",
+    "checker_seconds": 6.251000741031021e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-005:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-006",
+    "checker_seconds": 5.832996976096183e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-006:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-006",
+    "checker_seconds": 5.961999704595655e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-006:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C2"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-006",
+    "checker_seconds": 5.9869998949579895e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-006:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C2"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-007",
+    "checker_seconds": 6.645997927989811e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-007:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C4"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-007",
+    "checker_seconds": 6.736998329870403e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-007:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C3"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-007",
+    "checker_seconds": 6.718997610732913e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-007:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-008",
+    "checker_seconds": 6.324997229967266e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-008:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-008",
+    "checker_seconds": 6.297006621025503e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-008:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C0"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-008",
+    "checker_seconds": 6.156995368655771e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-008:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C0"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_winner"
+  },
+  {
+    "arm": "natural",
+    "case_id": "1-009",
+    "checker_seconds": 6.14800228504464e-06,
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-009:natural",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-009",
+    "checker_seconds": 6.269001460168511e-06,
+    "errors": [],
+    "family": "evaluation_selection",
+    "id": "1-009:canonical_correct",
+    "mode": "real",
+    "report": {
+      "policy_compliant": false,
+      "selected": "C3"
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "1-009",
+    "checker_seconds": 6.053000106476247e-06,
+    "errors": [
+      "policy_compliant"
+    ],
+    "family": "evaluation_selection",
+    "id": "1-009:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "validation_search"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-000",
+    "checker_seconds": 8.608003554400057e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-000:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-000",
+    "checker_seconds": 7.15300120646134e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-000:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-000",
+    "checker_seconds": 6.050999218132347e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-000:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-001",
+    "checker_seconds": 9.134004358202219e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-001:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-001",
+    "checker_seconds": 8.356000762432814e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-001:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-001",
+    "checker_seconds": 8.242001058533788e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-001:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-002",
+    "checker_seconds": 7.265000022016466e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-002:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-002",
+    "checker_seconds": 7.196002115961164e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-002:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-002",
+    "checker_seconds": 7.016999006737024e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-002:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-003",
+    "checker_seconds": 1.06209990917705e-05,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-003:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-003",
+    "checker_seconds": 9.329996828455478e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-003:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-003",
+    "checker_seconds": 9.00399754755199e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-003:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-004",
+    "checker_seconds": 5.194000550545752e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-004:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-004",
+    "checker_seconds": 5.236004653852433e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-004:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-004",
+    "checker_seconds": 5.073001375421882e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-004:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-005",
+    "checker_seconds": 6.191003194544464e-06,
+    "errors": [
+      "complete"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-005:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-005",
+    "checker_seconds": 5.966001481283456e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-005:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": false
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-005",
+    "checker_seconds": 6.036992999725044e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-005:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": false
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-006",
+    "checker_seconds": 5.003996193408966e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-006:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-006",
+    "checker_seconds": 5.101006536278874e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-006:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-006",
+    "checker_seconds": 5.184992915019393e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-006:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-007",
+    "checker_seconds": 8.956005331128836e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-007:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-007",
+    "checker_seconds": 8.80800507729873e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-007:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-007",
+    "checker_seconds": 8.648996299598366e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-007:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-008",
+    "checker_seconds": 6.30300201009959e-06,
+    "errors": [
+      "complete",
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-008:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-008",
+    "checker_seconds": 6.34100433671847e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-008:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": false
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-008",
+    "checker_seconds": 6.251997547224164e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-008:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": false
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "all_runs"
+  },
+  {
+    "arm": "natural",
+    "case_id": "2-009",
+    "checker_seconds": 6.8689987529069185e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-009:natural",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "natural",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-009",
+    "checker_seconds": 6.776994268875569e-06,
+    "errors": [],
+    "family": "evidence_sufficiency",
+    "id": "2-009:canonical_correct",
+    "mode": "real",
+    "report": {
+      "claim_supported": true,
+      "complete": true
+    },
+    "report_kind": "canonical_correct",
+    "split": "development",
+    "status": "correct",
+    "variant": "mean_improvement"
+  },
+  {
+    "arm": "controlled",
+    "case_id": "2-009",
+    "checker_seconds": 6.916998245287687e-06,
+    "errors": [
+      "claim_supported"
+    ],
+    "family": "evidence_sufficiency",
+    "id": "2-009:controlled_incorrect",
+    "mode": "real",
+    "report": {
+      "claim_supported": false,
+      "complete": true
+    },
+    "report_kind": "controlled_incorrect",
+    "split": "development",
+    "status": "incorrect",
+    "variant": "mean_improvement"
+  }
+]

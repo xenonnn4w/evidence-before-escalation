@@ -1,0 +1,12 @@
+{
+  "bootstrap_replicates": 2000,
+  "figures": 7,
+  "mode": "real",
+  "prevalence_draws": 1000,
+  "run_signature": {
+    "code_hash": "42da698bd85d730fc5a1bd77ec3f629febb4c06e3efa8f1872c46e8854297958",
+    "config_hash": "b79778518d34da45e9e247dc987b03fd2b56dcce40a44d98e7ca7ef03855983e",
+    "dataset_hash": "cbdb8c6d02c1acf7f848c902b8f6ab1930fb8f800bc8e7d9f6833be5423109a8"
+  },
+  "warning": "Held-out model experiment"
+}

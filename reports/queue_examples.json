@@ -1,0 +1,130 @@
+[
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "arm": "controlled",
+    "direction": "added",
+    "report_id": "0-015:controlled_incorrect",
+    "errors": [
+      "score_B"
+    ],
+    "report": {
+      "score_A": 0.75,
+      "score_B": 0.6536,
+      "winner": "B"
+    },
+    "U": 5.8288736351473274e-05,
+    "S": 0.001501131425901831
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "arm": "controlled",
+    "direction": "lost",
+    "report_id": "0-037:controlled_incorrect",
+    "errors": [
+      "score_A"
+    ],
+    "report": {
+      "score_A": 0.5342,
+      "score_B": 0.7368,
+      "winner": "B"
+    },
+    "U": 0.003172595601179355,
+    "S": 2.1443708599898127e-05
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "arm": "natural",
+    "direction": "added",
+    "report_id": "0-015:natural",
+    "errors": [
+      "score_A",
+      "score_B",
+      "winner"
+    ],
+    "report": {
+      "score_A": 0.9167,
+      "score_B": 0.9143,
+      "winner": "A"
+    },
+    "U": 7.888929666838735e-06,
+    "S": 0.00020341853656876665
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "arm": "natural",
+    "direction": "lost",
+    "report_id": "1-018:natural",
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "report": {
+      "policy_compliant": true,
+      "selected": "C3"
+    },
+    "U": 0.0007085590074069235,
+    "S": 3.53422313136536e-05
+  },
+  {
+    "model": "Qwen/Qwen3-4B",
+    "arm": "controlled",
+    "direction": "added",
+    "report_id": "1-012:controlled_incorrect",
+    "errors": [
+      "policy_compliant"
+    ],
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "U": 0.060087860771820815,
+    "S": 0.993306020245548
+  },
+  {
+    "model": "Qwen/Qwen3-4B",
+    "arm": "controlled",
+    "direction": "lost",
+    "report_id": "1-011:controlled_incorrect",
+    "errors": [
+      "policy_compliant"
+    ],
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "U": 0.562169693653253,
+    "S": 0.3207947938053254
+  },
+  {
+    "model": "Qwen/Qwen3-4B",
+    "arm": "natural",
+    "direction": "added",
+    "report_id": "1-034:natural",
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "report": {
+      "policy_compliant": true,
+      "selected": "C1"
+    },
+    "U": 0.4378207703594531,
+    "S": 0.9399143195080506
+  },
+  {
+    "model": "Qwen/Qwen3-4B",
+    "arm": "natural",
+    "direction": "lost",
+    "report_id": "1-027:natural",
+    "errors": [
+      "selected",
+      "policy_compliant"
+    ],
+    "report": {
+      "policy_compliant": true,
+      "selected": "C2"
+    },
+    "U": 0.6791593863763452,
+    "S": 0.00043056297058803
+  }
+]

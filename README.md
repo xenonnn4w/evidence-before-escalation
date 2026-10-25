@@ -1,64 +1,63 @@
 # Evidence Before Escalation
 
-## Can evidence organization improve the allocation of limited research review?
+Does organizing identical evidence help an open-model auditor prioritize errors for limited review?
 
-**Status: implementation v0.2, 23 October 2026. CPU and synthetic end-to-end validation complete; real GPU model experiments have not run.**
+**Completed experiment · 24 October 2026.** [Read the study](https://xenonnn4w.me/research/evidence-before-escalation) · [Full report](reports/RESULTS.md) · [Protocol](docs/PROTOCOL.md)
 
-An independent personal research project using open models to study how limited review capacity can be allocated to errors in research reports. This repository contains an implemented evaluation harness, 180 deterministic cases, independent checks, resumable model runners, a locked environment and seven-figure analysis. Synthetic validation outputs are explicitly labeled and are not research results.
+## Result
 
-Repository: [xenonnn4w/evidence-before-escalation](https://github.com/xenonnn4w/evidence-before-escalation).
+At a 20% review budget, Qwen3-4B selected **41 of 150 controlled errors under either evidence layout**. The paired change in error recall was **0.0 percentage points (95% interval −4.0 to +3.3)**. This does not establish equivalence; smaller benefits or harms remain plausible.
 
-Start with the **[launch instructions](docs/LAUNCH.md)** and **[current readiness evidence](reports/IMPLEMENTATION_READINESS.md)**.
+| Auditor | Reports | Original: errors selected | Organized: errors selected | Queue size |
+|---|---|---:|---:|---:|
+| Qwen3-1.7B | Controlled | 31 | 28 | 60 |
+| Qwen3-1.7B | Natural | 23 | 27 | 30 |
+| Qwen3-4B | Controlled, primary | 41 | 41 | 60 |
+| Qwen3-4B | Natural | 30 | 28 | 30 |
 
-## Research question
+![Paired changes in error recall](results/test/analysis/fig02_organization_effect.png)
 
-When only 20% of research reports can be reviewed, does organizing the same experimental evidence around the report’s claims help an open-source auditor prioritize more errors than presenting the original evidence ledger?
+The layouts selected different reports even when their totals matched. The 4B auditor missed all 50 erroneous natural metric reports under both layouts. Task-level and queue-overlap plots make these failures visible.
 
-Compare original-order evidence, claim-organized evidence and a report-only diagnostic. Include random review, uncertainty-based review and a deterministic checker baseline. Evaluate Qwen3-1.7B and Qwen3-4B auditors on the **same reports**. Qwen3-8B is an optional extension after the core run. Qwen3-4B generates the natural reports. All inference is local to the selected machine, using released weights; no proprietary-model judge supplies ground truth.
+## Experiment
 
-## Motivation and scope
+- **150 test base cases**, plus 30 separate development cases; metric reporting, validation-only selection, and evaluation-ledger completeness.
+- **450 test reports:** 150 real Qwen3-4B generations, 150 correct reference reports, and 150 reference reports with one controlled corruption.
+- **2,700 test scores:** Qwen3-1.7B and 4B auditors × three conditions × 450 reports.
+- **Conditions:** report only, original-order evidence, and the identical evidence sorted by claim field. No added answers or summaries.
+- **Hardware:** one RTX 3090 24GB, BF16, batch 1. No training; optional 8B not run.
+- **Analysis:** review budgets of 10%, 20%, and 40%; 2,000 paired base-case bootstrap samples stratified by family and test stratum.
 
-Research review has a limited attention budget. This project investigates the **routing decision immediately before human review**: what evidence helps an automated system prioritize reports containing errors?
+Inputs are synthetic, but model generation and auditing are real inference. Natural and deliberately corrupted reports are analyzed separately. Scores are relative completion likelihoods, not calibrated probabilities.
 
-The experiment measures error concentration in a review queue under a fixed count budget. It does not measure human detection, cognitive load, minutes saved or real-world safety. A later participant study could test whether the selected cases and evidence actually help reviewers; that is outside the scope of this repository.
+## Reproduce
 
-The intended contribution is a small, transparent experimental result about evidence access, auditor size and failure patterns on verifiable research tasks. Novelty remains provisional; no claim of being the first to study triage or evidence-based monitoring is made.
+Use the Python 3.11 environment specified in `pyproject.toml` and `uv.lock`:
 
-## Preparation pack
+```bash
+uv sync --frozen
+uv run python -m auditbench validate-run --out results/test
+uv run python -m auditbench analyze --out results/test
+uv run python analysis/supplementary.py
+```
 
-| File | Purpose |
-| --- | --- |
-| [docs/DESIGN_REVIEW.md](docs/DESIGN_REVIEW.md) | Design changes, strongest objections and what would count as evidence |
-| [docs/PROTOCOL.md](docs/PROTOCOL.md) | Seven questions, tasks, labels, splits, metrics, analysis rules |
-| [configs/core.json](configs/core.json) | Proposed fixed experiment matrix and generation settings |
-| [prompts/generator.md](prompts/generator.md) | Natural-report generation prompt |
-| [prompts/auditor.md](prompts/auditor.md) | Three information conditions and binary scoring prompt |
-| [docs/RUNBOOK.md](docs/RUNBOOK.md) | CPU preparation, GPU smoke test, freeze, full run, archive |
-| [docs/REFERENCE_STRUCTURE.md](docs/REFERENCE_STRUCTURE.md) | What we learned from the previous A100 task |
-| [planning/CHECKLIST.md](planning/CHECKLIST.md) | Observable completion gates |
-| [reports/REPORT_TEMPLATE.md](reports/REPORT_TEMPLATE.md) | Questions, planned figures, results and limitations |
+Analysis uses saved scores and requires no GPU or model downloads. New inference requires the pinned model revisions and a compatible GPU environment; see [launch instructions](docs/LAUNCH.md). Frozen planning strings in the config are historical: the run manifests record actual execution and hardware.
 
-## Minimum useful result
+## Files
 
-- 180 independently seeded base tasks: 30 development, 90 new-instance test and 60 held-out-variant test; three task families.
-- Each base task produces one natural Qwen3-4B report, one verified canonical report and one deliberately corrupted canonical report.
-- Natural and controlled-corruption arms remain separate throughout analysis.
-- 540 total report records, 2 auditors, 3 evidence conditions: **3,240 scoring records** plus **180 generator completions**.
-- Main test contains 150 natural reports and 300 controlled reports. These represent **150 base tasks**, not 450 independent tasks.
-- Primary endpoint: paired change in controlled-arm error recall at a 20% review budget for the 4B auditor, claim-organized versus original-order evidence. Natural-report performance is the key transfer check, subject to sufficient observed errors.
-- Other budgets: 10% and 40%. Report raw counts, false escalations, residual errors, uncertainty and inference cost.
+| Path | Contents |
+|---|---|
+| `reports/RESULTS.md` | Methods, results, uncertainty, examples, and limitations |
+| `results/test/` | Raw generations, reports, prompts, scores, manifest, and validation |
+| `results/test/analysis/` | Ten figures in PNG/PDF, with source CSVs |
+| `analysis/supplementary.py` | Three post-hoc descriptive diagnostics |
+| `reports/independent_metric_check.json` | All 50 metric labels recomputed from raw predictions |
+| `data/` | Seeded cases and pre-test freeze signatures |
+| `auditbench/` | Generator, scoring, checking, validation, and core analysis |
 
-The evidence tasks are synthetic: classification predictions, selection logs and evaluation-ledger values are generated by seeded routines. Real open models then generate and audit reports about them. The controlled arm makes an interpretable paired experiment possible; it does not estimate a model's natural error rate. Add prespecified 10% and 25% error-prevalence simulations without new inference. A negative result is a finished experiment if its implementation and labels hold up.
+The first seven figures follow the frozen analysis plan. Figures 8–10 were added after inspecting results; they introduce no new inference or confirmatory claims. Preparation documents and synthetic validation fixtures are historical development evidence, not experimental results.
 
-Both evidence views contain exactly the same records, with no extra answers or generated summaries. The primary manipulation is deterministic ordering by claim field. This narrow intervention makes the comparison interpretable. Deterministic checking may solve these bounded tasks completely; report that openly and do not claim an LLM is the best production solution.
+## Limits
 
-## Compute
+The deterministic checker already solves these bounded tasks, so this study does not establish that an LLM is preferable to executable checking. It uses one model family, one generator draw per case, and a designed 50% error rate in the controlled arm. No human reviewers participated; there is no measured improvement in human decisions or time saved.
 
-Target a single A100 40GB, one model loaded at a time, BF16, no training. That is a proposed setup, not a record of hardware already used. A smaller GPU may be sufficient; an A100 is convenient rather than scientifically necessary. Confirm memory and throughput on the smoke run before committing to the full run. No rental has been started and no completion-time or cost promise is made.
-
-## Sources
-
-- [AI Agents Push Humans Out of the Loop](https://arxiv.org/html/2608.23642v3): human oversight design context.
-- [Toward Human-AI Complementarity Across Diverse Tasks](https://arxiv.org/abs/2605.04070): motivation to examine routing and complementarity rather than presume confidence is useful.
-- [Automated alignment is harder than you think](https://arxiv.org/abs/2605.06390): limits of supervising research outputs; our checkable tasks cover a narrower setting.
-- Official model cards: [1.7B](https://huggingface.co/Qwen/Qwen3-1.7B), [4B](https://huggingface.co/Qwen/Qwen3-4B), [8B](https://huggingface.co/Qwen/Qwen3-8B). Immutable revisions are pinned in `configs/core.json`.
